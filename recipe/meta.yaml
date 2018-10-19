@@ -25,13 +25,11 @@ build:
 requirements:
   build:
     - {{posix}}zip               # [win]
-
   host:
     - r-base
     - r-mass
     - r-npsurv
     - r-survival
-
   run:
     - r-base
     - r-mass
