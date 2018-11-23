@@ -7,16 +7,15 @@ Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Extends the fitdistr() function (of the MASS package) with several functions to help the fit of a parametric distribution to non-censored or censored data. Censored data may contain left censored, right censored and interval censored values, with several lower and upper bounds. In addition to maximum likelihood estimation (MLE), the package provides moment matching (MME), quantile matching (QME) and maximum goodness-of-fit estimation (MGE) methods (available only for non-censored data). Weighted versions of MLE, MME and QME are available.
+Summary: Extends the fitdistr() function (of the MASS package) with several functions to help the fit of a parametric distribution to non-censored or censored data. Censored data may contain left censored, right censored and interval censored values, with several lower and upper bounds. In addition to maximum likelihood estimation (MLE), the package provides moment matching (MME), quantile matching (QME) and maximum goodness-of-fit estimation (MGE) methods (available only for non-censored data). Weighted versions of MLE, MME and QME are available. See e.g. Casella & Berger (2002). Statistical inference. Pacific Grove.
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-fitdistrplus-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-fitdistrplus-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-fitdistrplus-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-fitdistrplus-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-fitdistrplus-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-fitdistrplus-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-fitdistrplus-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-fitdistrplus-feedstock)
 
 Current release info
 ====================
