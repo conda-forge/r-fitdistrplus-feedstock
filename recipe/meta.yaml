@@ -1,4 +1,4 @@
-{% set version = '1.0-14' %}
+{% set version = "1.1-1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fitdistrplus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fitdistrplus/fitdistrplus_{{ version }}.tar.gz
-  sha256: 85082590f62aa08d99048ea3414c5cc1e5b780d97b3779d2397c6cb435470083
+  sha256: 546e700a39c4ad1dbecf06ba8724e4cf73cb500009027c28762511d52bb7cee6
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,19 +40,12 @@ test:
     - "\"%R%\" -e \"library('fitdistrplus')\""  # [win]
 
 about:
-  home: 'MailingList: http://listes.univ-lyon1.fr/wws/info/fitdist-users; https://lbbe.univ-lyon1.fr/fitdistrplus.html,
-    http://riskassessment.r-forge.r-project.org'
+  home: 'MailingList: http://listes.univ-lyon1.fr/wws/info/fitdist-users; https://lbbe.univ-lyon1.fr/fitdistrplus.html, http://riskassessment.r-forge.r-project.org'
   license: GPL (>= 2)
-  summary: Extends the fitdistr() function (of the MASS package) with several functions to help
-    the fit of a parametric distribution to non-censored or censored data. Censored
-    data may contain left censored, right censored and interval censored values, with
-    several lower and upper bounds. In addition to maximum likelihood estimation (MLE),
-    the package provides moment matching (MME), quantile matching (QME) and maximum
-    goodness-of-fit estimation (MGE) methods (available only for non-censored data).
-    Weighted versions of MLE, MME and QME are available. See e.g. Casella & Berger (2002).
-    Statistical inference. Pacific Grove.
+  summary: Extends the fitdistr() function (of the MASS package) with several functions to help the fit of a parametric distribution to non-censored or censored data. Censored data may contain left censored, right censored and interval censored values, with several lower and upper bounds. In addition to maximum likelihood
+    estimation (MLE), the package provides moment matching (MME), quantile matching (QME) and maximum goodness-of-fit estimation (MGE) methods (available only for non-censored data). Weighted versions of MLE, MME and QME are available. See e.g. Casella & Berger (2002). Statistical inference. Pacific Grove.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
