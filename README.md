@@ -3,7 +3,7 @@ About r-fitdistrplus
 
 Home: MailingList: http://listes.univ-lyon1.fr/wws/info/fitdist-users; https://lbbe.univ-lyon1.fr/fitdistrplus.html, http://riskassessment.r-forge.r-project.org
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fitdistrplus-feedstock/blob/master/LICENSE.txt)
 
