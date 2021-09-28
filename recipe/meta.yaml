@@ -1,4 +1,4 @@
-{% set version = "1.1-5" %}
+{% set version = "1.1-6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fitdistrplus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fitdistrplus/fitdistrplus_{{ version }}.tar.gz
-  sha256: 2e34969e53fcdccaf003d65b24ed28ab2e8ae281ed7b06ff4e0bff02e0de39dd
+  sha256: 17c2990041a3bb7479f3c3a6d13d96c989db8eaddab17eff7e1fbe172a5b96be
 
 build:
   merge_build_host: true  # [win]
