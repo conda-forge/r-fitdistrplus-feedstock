@@ -1,11 +1,11 @@
-About r-fitdistrplus
-====================
+About r-fitdistrplus-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fitdistrplus-feedstock/blob/main/LICENSE.txt)
 
 Home: MailingList: http://listes.univ-lyon1.fr/wws/info/fitdist-users; https://lbbe.univ-lyon1.fr/fitdistrplus.html, http://riskassessment.r-forge.r-project.org
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fitdistrplus-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extends the fitdistr() function (of the MASS package) with several functions to help the fit of a parametric distribution to non-censored or censored data. Censored data may contain left censored, right censored and interval censored values, with several lower and upper bounds. In addition to maximum likelihood estimation (MLE), the package provides moment matching (MME), quantile matching (QME) and maximum goodness-of-fit estimation (MGE) methods (available only for non-censored data). Weighted versions of MLE, MME and QME are available. See e.g. Casella & Berger (2002). Statistical inference. Pacific Grove.
 
