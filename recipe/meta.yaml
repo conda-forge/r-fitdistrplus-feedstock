@@ -1,6 +1,5 @@
 {% set version = "1.1-11" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-fitdistrplus
@@ -13,8 +12,7 @@ source:
   sha256: 26274f2b710b2417a8bca314d400abf320d4ccf0387ad082743056699501b53d
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
