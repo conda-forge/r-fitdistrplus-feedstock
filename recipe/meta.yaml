@@ -21,15 +21,16 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-mass
-    - r-npsurv
+    - r-rlang
     - r-survival
   run:
     - r-base
     - r-mass
-    - r-npsurv
+    - r-rlang
     - r-survival
 
 test:
