@@ -1,4 +1,4 @@
-{% set version = "1.2-5" %}
+{% set version = "1.2-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fitdistrplus_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fitdistrplus/fitdistrplus_{{ version }}.tar.gz
-  sha256: 7f54290c5480c50a53ea10e9bcf58d1d51637ac98ba2d107ef1db996741ad0f4
+  sha256: e8b7d96303229f70e780187dafc2e1caef825bd0b739413f69eb27e08c89298d
 
 build:
   number: 0
